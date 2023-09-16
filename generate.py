@@ -3,6 +3,9 @@ import re
 import geoip2.database
 import socket
 
+# Make sure to have the GeoIP databases in the same folder. Download them here:
+# https://github.com/PrxyHunter/GeoLite2/releases/tag/2023.09.16
+
 # List of high-traffic domains (you can fetch this from a data source)
 high_traffic_domains = [
 	"google.com"
